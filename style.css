@@ -1,0 +1,23 @@
+/*
+*
+** HEADER
+*
+*/
+
+header nav ul {
+   list-style-type: none;
+   text-align: right;
+}
+
+header a {
+   text-decoration: none;
+}
+
+header nav ul li {
+   float: left;
+   padding: 15px;
+}
+
+nav {
+   text-align: right;
+}
