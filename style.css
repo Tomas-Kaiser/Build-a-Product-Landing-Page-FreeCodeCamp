@@ -1,23 +1,60 @@
+body {
+   margin: auto;
+}
+
 /*
 *
 ** HEADER
 *
 */
+header {
+   display: grid;
+   grid-template-columns: 1fr 2fr 4fr;
+   background: rgb(226, 226, 226);
+}
+
+/*
+** LOGO
+*/
+#logo {
+   padding: 10px;
+   align-self: center;
+   justify-self: center;
+}
+
+img {
+   width: 25%;
+}
+
+h1 {
+ align-self: center;
+ font-size: 1.8em;
+}
+
+
+/*
+** NAV
+*/
+header nav {
+   align-self: center;
+   justify-self: end;
+}
 
 header nav ul {
    list-style-type: none;
-   text-align: right;
-}
-
-header a {
-   text-decoration: none;
+   display: flex;
+   justify-content: space-around;
+   width: 500px;
 }
 
 header nav ul li {
-   float: left;
-   padding: 15px;
+   padding: 20px;
 }
 
-nav {
-   text-align: right;
+header nav ul li:hover {
+   background: bisque;
+}
+
+header nav ul li a{
+   text-decoration: none;
 }
