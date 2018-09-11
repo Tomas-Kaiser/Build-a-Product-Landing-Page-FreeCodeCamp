@@ -18,12 +18,13 @@ header {
 */
 #logo {
    padding: 10px;
+   margin: 5px;
    align-self: center;
-   justify-self: center;
+   justify-self: left;
 }
 
-img {
-   max-width: 30%;
+#logo img {
+   width: 50px;
 }
 
 h1 {
@@ -61,7 +62,7 @@ header nav ul li a{
 
 /*
 *
-** SECTION
+** SECTION Handcraft
 *
 */
 
@@ -91,4 +92,44 @@ input {
    border: 0;
    margin: 5px auto;
    font-weight: bold;
+   cursor: pointer;
+}
+
+/*
+*
+** SECTION Features
+*
+*/
+.grid {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   margin: 20px 0;
+}
+.img-features {
+   width: 70px;
+   margin: 0 18px 0 0;
+}
+
+.desc {
+   max-width: 700px;
+}
+
+.desc h2 {
+   margin: 0;
+}
+
+.desc p {
+   margin: 0;
+}
+
+/*
+*
+** SECTION How It Works - video
+*
+*/
+
+#how-it-works {
+   text-align: center;
 }
