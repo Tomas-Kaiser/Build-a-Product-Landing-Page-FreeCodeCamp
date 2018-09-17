@@ -195,3 +195,22 @@ input {
    font-size: 1.6em;
    font-weight: bold;
 }
+
+/*
+*
+** FOOTER
+*
+*/
+
+footer {
+   text-align: right;
+   background: rgb(226, 226, 226);
+}
+
+footer ul {
+   list-style-type: none;
+}
+
+footer ul li {
+   display: inline-block;
+}
