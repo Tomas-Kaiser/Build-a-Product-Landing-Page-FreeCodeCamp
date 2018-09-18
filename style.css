@@ -205,12 +205,20 @@ input {
 footer {
    text-align: right;
    background: rgb(226, 226, 226);
+   padding: 4px 0;
+}
+
+footer p {
+   margin: 5px 150px;
 }
 
 footer ul {
    list-style-type: none;
+   margin: 0 142px;
 }
 
 footer ul li {
    display: inline-block;
+   cursor: pointer;
+   margin: 2px 8px;
 }
