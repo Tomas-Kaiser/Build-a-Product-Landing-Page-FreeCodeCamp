@@ -58,7 +58,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-   background: bisque;
+   transform: scale(1.5);
 }
 
 header nav ul li a{
@@ -215,12 +215,12 @@ footer {
 }
 
 footer p {
-   margin: 5px 150px;
+   margin: 5px 140px;
 }
 
 footer ul {
    list-style-type: none;
-   margin: 0 142px;
+   margin: 0 132px;
 }
 
 footer ul li {
