@@ -50,7 +50,7 @@ header nav ul {
    list-style-type: none;
    display: flex;
    justify-content: space-around;
-   width: 500px;
+   max-width: 500px;
 }
 
 header nav ul li {
@@ -63,6 +63,7 @@ header nav ul li:hover {
 
 header nav ul li a{
    text-decoration: none;
+   font-size: 1.2em;
 }
 
 /*
@@ -112,11 +113,15 @@ input {
 ** SECTION Features
 *
 */
+#features {
+   margin: 0 10px;
+}
+
 .grid {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100px;
+   height: 100%;
    margin: 20px 0;
 }
 .img-features {
@@ -146,6 +151,11 @@ input {
    text-align: center;
 }
 
+#how-it-works iframe{
+   max-width: 95%;
+   margin: 0;
+}
+
 /*
 *
 ** SECTION Price
@@ -154,6 +164,7 @@ input {
 
 #price {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    margin: 15px 0;
 }
@@ -211,20 +222,75 @@ input {
 footer {
    text-align: right;
    background: rgb(226, 226, 226);
-   padding: 4px 0;
+   padding: 4px 50px;
 }
 
 footer p {
-   margin: 5px 140px;
+   margin: 5px 0;
 }
 
 footer ul {
    list-style-type: none;
-   margin: 0 132px;
+   margin: 3px 0;
 }
 
 footer ul li {
    display: inline-block;
    cursor: pointer;
-   margin: 2px 8px;
+   margin: 2px 0;
 }
+
+/*
+*
+** @Media query
+*
+*/
+
+
+
+@media only screen and (max-width: 700px) {
+   header {
+      margin-top: -216.80px;
+   }
+
+   #section-handcraft {
+      margin-top: 216.80px;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+   header nav ul {
+      flex-direction: column;
+   }
+
+   header nav ul li{
+      text-align: center;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   header nav ul li {
+      padding: 10px 12px 10px 0;
+   }
+
+   header {
+      margin-top: -156.80px;
+   }
+
+   #section-handcraft {
+      margin-top: 156.80px;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+
+   header {
+      margin-top: -178.40px;
+   }
+
+   #section-handcraft {
+      margin-top: 178.40px;
+   }
+}
+
+   
